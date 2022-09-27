@@ -46,13 +46,14 @@
     justify-content: space-around;
     align-items: center;
 }
-
-.navbar-texs li a:hover {
-    padding: 0.5rem;
+.navbar-texs li{
+    padding: 5px;
+}
+.navbar-texs li:hover{
+    padding: 5px;   
     border-radius: 10px;
     background-color: rgba(51, 44, 154, 0.087);
-}
-
+} 
 .navbar-texs li {
     list-style: none;
 }
